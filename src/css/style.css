@@ -1,0 +1,8 @@
+button, p {
+  margin-left: 40px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
