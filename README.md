@@ -1,4 +1,4 @@
-## changelog (newest to oldest)www
+## changelog (newest to oldest)
 - added attendance check
 
 ## upcoming features
