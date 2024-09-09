@@ -1,6 +1,7 @@
 import { getRandomPerson } from "./modules/randomPicker.js";
 import { updateChance, updateWeight } from "./modules/updateChance.js";
 import { people } from "./data/data.js";
+import { checkAttendance } from "./modules/attendance.js";
 
 const button = document.querySelector("button");
 
@@ -13,3 +14,4 @@ button.addEventListener("click", () => {
 });
 
 updateChance(people);
+checkAttendance()

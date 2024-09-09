@@ -1,3 +1,7 @@
+body {
+  max-width: 200px;
+}
+
 button, p {
   margin-left: 40px;
 }
@@ -5,4 +9,8 @@ button, p {
 li {
   display: flex;
   justify-content: space-between;
+}
+
+.crossed-out {
+  text-decoration: line-through;
 }
